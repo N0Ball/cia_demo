@@ -1,0 +1,47 @@
+:root{
+    --color-light:#eceef1;
+    --color-dark:#0060f1;
+}
+*{
+    font-family: 'Playfair Display', serif;
+}
+.bg-main-light{
+    background-color: var(--color-light);
+}
+.bg-main-dark{
+    background-color: var(--color-dark);
+}
+.main-light{
+    color: var(--color-light);
+}
+.main-dark{
+    color: var(--color-dark);
+}
+main{
+    min-height: 100vh;
+}
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 30vh;
+    width: 100vw !important;
+}
+#welcome-page img{
+    min-height: 300px;
+}
+.navbar-brand-text{
+    margin: .75rem;
+    font-size: .5rem;
+}
+.story-img{
+    min-width: 190px;
+}
+.logo-text{
+    position: absolute;
+    width: 90vw;
+    bottom: .75rem;
+}
+.img-items img{
+    min-width: 190px;
+    max-height: 230px;
+}
