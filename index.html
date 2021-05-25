@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/22c58b5747.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>CIA</title>
+    </head>
+    <body>
+
+        <!-- Nav Bar -->
+        <div w3-include-html="./inc/header.html"></div>
+
+        <main>
+
+            <!-- Introduction -->
+            <section id="introduction" class="bg-white">
+                <h2 class="title text-center fw-bold">What We Do</h2>
+                <div class="container p-3">
+                    <div class="row intro">
+                        <div class="col intro-item text-center m-5" data-aos="fade-right">
+                            <i class="far fa-lightbulb fa-7x p-5 main-dark"></i>
+                            <h3 class="intro-title fw-bold">Innovation 創新</h3>
+                            <p class="intro-text fs-5">We encourage creative ways for solving scientific and technological problems.</p>
+                        </div>
+                        <div class="col intro-item text-center m-5" data-aos="fade-down">
+                            <i class="fas fa-rocket fa-7x p-5 main-dark"></i>
+                            <h3 class="intro-title fw-bold">Research 研究</h3>
+                            <p class="intro-text fs-5">All things space are cool.</p>
+                        </div>
+                        <div class="col intro-item text-center m-5" data-aos="fade-left">
+                            <i class="fas fa-globe-americas fa-7x p-5 main-dark"></i>
+                            <h3 class="intro-title fw-bold">Outreach 推廣</h3>
+                            <p class="intro-text fs-5">Space is no longer just a dream! You can do it, too! Help the young generations learn about the world and the universe. <br> 太空不再只是夢，你也可以參與！</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stories -->
+            <section id="our-stories" class="bg-main-light">
+                <h2 class="title text-center fw-bold">Our Stories</h2>
+                <h5 class="text-center">Behind the scenes stories</h5>
+                <div class="container">
+                    <div class="row g-0">
+                        <div class="story-img col col-lg-8">
+                            <img src="./img/penguin.jpg" class="img-fluid" alt="penguin">
+                        </div>
+                        <div class="col col-lg-4">
+                            <div class="card" style="width: 18rem;" data-aos="fade-up-left">
+                                <div class="card-body">
+                                    <h5 class="card-title">Join Us! 歡迎加入！</h5>
+                                    <p class="card-text">徵求有LabView背景的研究生/大學生 徵求對AI有興趣、有AI背景的研究生/大學生 徵求能設計App的研究生/大學生 意者請將個人資料、相關專長的簡短敘述email至：cissi@jupiter.ss.ncu.edu.tw。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <div w3-include-html="./inc/footer.html"></div>
+
+    </body>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+        w3.includeHTML();
+        AOS.init();
+    </script>
+    
+</html>
