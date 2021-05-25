@@ -26,16 +26,6 @@ section{
     min-height: 30vh;
     width: 100vw !important;
 }
-.row.make-columns {
-    -moz-column-width: 19em;
-    -webkit-column-width: 19em;
-    -moz-column-gap: 1em;
-    -webkit-column-gap:1em; 
-}
-.row.make-columns > div {
-    display: inline-block;
-    padding:  .5rem;
-}
 #welcome-page img{
     min-height: 300px;
 }
@@ -46,11 +36,10 @@ section{
 .story-img{
     min-width: 190px;
 }
-.logo::after{
-    content: "Computational Intelligence for the Atmosphere 智在太空研究室";
+.logo-text{
     position: absolute;
-    bottom: 1.75rem;
-    left: calc(50% - 210px);
+    width: 90vw;
+    bottom: .75rem;
 }
 .img-items img{
     min-width: 190px;
