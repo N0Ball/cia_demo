@@ -17,6 +17,9 @@
 .main-dark{
     color: var(--color-dark);
 }
+main{
+    min-height: 100vh;
+}
 section{
     padding-top: 3rem;
     padding-bottom: 3rem;
