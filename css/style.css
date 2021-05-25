@@ -26,6 +26,16 @@ section{
     min-height: 30vh;
     width: 100vw !important;
 }
+.row.make-columns {
+    -moz-column-width: 19em;
+    -webkit-column-width: 19em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap:1em; 
+}
+.row.make-columns > div {
+    display: inline-block;
+    padding:  .5rem;
+}
 #welcome-page img{
     min-height: 300px;
 }
